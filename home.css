@@ -1,0 +1,77 @@
+body{
+    background-image: url("https://i.pinimg.com/564x/42/c4/67/42c467d640670e8130d7607aa6f8250a.jpg");     
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    
+    height: 0%;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.banner{
+    width:100% ;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0)),(rgb(0, 0, 0));
+     background-position: center;
+     background-size: cover;  
+}
+.navbar{
+    width: 90%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    align-items: center;                                                                                                                      
+    justify-content: space-between;
+}
+.logo{
+    width: 2690px;
+    margin-top: -100px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-weight: 600;
+    padding: 15px;
+}
+li a:hover{
+    background: rgb(184, 245, 171);
+    transform: 1.5s;
+    border-radius: 6px;
+}
+.navbar a:hover{
+    color: rgb(88, 2, 2);
+}
+.content{
+    width: 100%;
+    position: absolute;
+    color: rgb(37, 45, 53);
+    top: 45%;
+    transform: translateY(-50%);
+    text-align: right;
+}
+.content h1{
+    margin-top: 80px;
+    font-size: 100px;
+    font-weight: 600px;
+    color: rgb(198, 236, 253);
+}
+button{
+    width: 100px;
+    height: 80px;
+    border-radius: 20px;
+    text-shadow: 20pt;
+    border-color: rgb(93, 93, 214);
+    background-color: rgb(47, 189, 146);
+    font-family: impact;
+    font-size: 20px;
+    color: rgb(92, 10, 10);
+    cursor: pointer;
+}
